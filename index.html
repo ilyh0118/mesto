@@ -15,7 +15,7 @@
     </head>
     <body class="page">
         <header class="header">
-
+            <img class="header__logo" src="./images/logo_mesto.svg" alt="логотип проекта">
         </header>
         <main class="content">
             <section class="profile">
@@ -29,29 +29,30 @@
                     </h3>
                 </div>
                 <img class="profile__info-edit" src="">
-                <img class="profile__add-btn" src="">
-                <div class="popup">
-                    <form class="popup__container">
-                        <div class="popup__main-container">
-                            <h2>
-                                Редактировать профиль
-                            </h2>
-                            <fieldset class="popup__input-container">
-                                <input class="popup__item"
-                            </fieldset>
-                        </div>                        
-                        <fieldset class="popup__handlers">
-
-                        </fieldset>
-                    </form>
-                    <div class="popup__toggle">
-                        <img class="popup__toggle-image" src="" alt="">
-                    </div>
-                </div>
+                <img class="profile__add-btn" src="">                
             </section>
         </main>
         <footer class="footer">
 
         </footer>
+        <div class="popup">
+            <form class="popup__container">
+                <div class="popup__toggle">
+                    <img class="popup__toggle-image" src="./images/close_icon.svg" alt="крестик-закрыть">
+                </div>
+                <div class="popup__main-container">
+                    <h2>
+                        Редактировать профиль
+                    </h2>
+                    <fieldset class="popup__input-container">
+                        <input class="popup__item popup__item_el_name" type="text" name="name" placeholder="Введите имя">
+                        <input class="popup__item popup__item_el_about" type="text" name="about" placeholder="О себе в двух словах">
+                    </fieldset>
+                </div>                        
+                <fieldset class="popup__handlers">
+                    <input class="form__button" type="submit">
+                </fieldset>
+            </form>            
+        </div>
     </body>
 </html>
