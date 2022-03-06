@@ -1,0 +1,9 @@
+.popup__handlers {
+    margin: 15px 22px 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.popup__item {
+    margin: 0 0 30px;
+    padding: 0 0 9px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid;
+    display: flex;
+    border-color: rgba(0, 0, 0, .2);
+    font: inherit;    
+    min-width: 55px;
+}

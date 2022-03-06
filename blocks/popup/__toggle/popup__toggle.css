@@ -1,8 +1,9 @@
 .popup__toggle {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    display: flex;
+    box-sizing: border-box;
     position: absolute;
-    /*top: -16px; */
-    background-color: burlywood;
+    top: -36px;
+    right: 0;
 }
