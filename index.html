@@ -16,10 +16,11 @@
     <body class="page">
         <header class="header">
             <img class="header__logo" src="./images/logo_mesto.svg" alt="логотип проекта">
+            <div class="header__line"></div>
         </header>
         <main class="content">
             <section class="profile">
-                <img src="" alt="profile avatar" class="profile__avatar">
+                <img class="profile__avatar" src="./images/profile_avatar.png" alt="фотокарточка профиля">
                 <div class="profile__info">
                     <h1 class="profile__author-name">
                         Жак-Ив Кусто
@@ -27,15 +28,26 @@
                     <h3 class="profile__about-author">
                         Исследователь океана
                     </h3>
+                    <img class="profile__info-edit" src="./images/Edit_Button.svg" alt="иконка редактирования">
                 </div>
-                <img class="profile__info-edit" src="">
-                <img class="profile__add-btn" src="">                
+                <div class="profile__add-btn">
+                </div>
             </section>
+            <area-label class="elements">
+                <img class="elements__image" src="./images/karachayevsk.jpg" alt="карачаевск">
+                <img class="elements__image" src="./images/elbrus.jpg" alt="эльбрус">
+                <img class="elements__image" src="./images/dombay.jpg" alt="домбай">
+                <img class="elements__image" src="./images/karachayevsk.jpg" alt="карачаевск">
+                <img class="elements__image" src="./images/elbrus.jpg" alt="эльбрус">
+                <img class="elements__image" src="./images/dombay.jpg" alt="домбай">            
+            </area-label>
         </main>
         <footer class="footer">
-
+            <h4 class="footer__copyright">
+                &copy; 2020 Mesto Russia
+            </h4>
         </footer>
-        <section class="popup">            
+        <section class="popup">
             <form class="popup__container">
                 <div class="popup__toggle">
                     <img class="popup__toggle-image" src="./images/close_icon.svg" alt="крестик-закрыть">
@@ -48,7 +60,7 @@
                         <input class="popup__item popup__item_el_name" type="text" name="name" placeholder="Введите имя">
                         <input class="popup__item popup__item_el_about" type="text" name="about" placeholder="О себе в двух словах">
                     </fieldset>
-                </div>                        
+                </div>
                 <fieldset class="popup__handlers">
                     <input class="popup__button" type="submit" value="Сохранить">
                 </fieldset>

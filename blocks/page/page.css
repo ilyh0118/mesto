@@ -1,14 +1,19 @@
 .page {
-    width: 320px;
-    height: 568px;
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
     border: 0;
+    box-sizing: content-box;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
-    background-color:darksalmon;
+    align-items: center;
+    background-color:rgb(12, 109, 49);
     color: #fff;
     font-family: 'Inter','Arial',sans-serif;
     position: relative;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
