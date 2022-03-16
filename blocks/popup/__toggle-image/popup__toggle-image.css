@@ -3,4 +3,9 @@
     padding: 0;
     width: 20px;
     height: 20px;
+    transition: opacity .3s;
+}
+
+.popup__toggle-image:hover {
+    opacity: .6;
 }
