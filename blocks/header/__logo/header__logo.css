@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    margin-bottom: calc(31px + 10 * ((100% - 320px)/(880 - 320)));
+    margin-bottom: calc(31px + 7 * ((100% - 320px)/(880 - 320)));
     margin-left: calc(27px - 27 * ((100% - 320px)/(880 - 320)));
     width: 20%;
     max-width: 142px;

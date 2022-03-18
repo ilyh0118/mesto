@@ -1,7 +1,7 @@
 .profile {
     margin: 0;
-    padding: 0 0 45px;
-    padding-bottom: calc(36px + 14 * ((100% - 282px)/(880 - 282)));
+    padding: 0;
+    padding-bottom: calc(36px + 10 * ((100% - 282px)/(880 - 282)));
     box-sizing: border-box;
     width: 100%;
     display: flex;

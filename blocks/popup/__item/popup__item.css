@@ -6,6 +6,9 @@
     border-bottom: 1px solid;
     display: flex;
     border-color: rgba(0, 0, 0, .2);
-    font: inherit;    
     min-width: 55px;
+    background-color: white;    
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
 }

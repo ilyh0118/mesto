@@ -1,6 +1,6 @@
 .content {
     padding: 0 19px;
-    padding-top: calc(42px - 1 * ((100% - 320px)/(880 - 320))); 
+    padding-top: calc(42px + 2 * ((100% - 320px)/(880 - 320))); 
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;

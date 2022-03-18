@@ -17,10 +17,11 @@
 }
 
 .pseudo-checkbox_el_like {
-    width: 24px;
+    width: 23px;
     height: 21px;
     background-image: url(../../../images/like.svg);
     animation: heartbeat_inactive .1s linear 2 alternate;
+    transition: background .3s;
 }
 
 .checkbox_el_like:hover + .pseudo-checkbox_el_like {
